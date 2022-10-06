@@ -237,3 +237,136 @@ body * {
   width: 600px;
   background: url(../img/section-two.png);
 }
+.online-container {
+  justify-content: center;
+  background: none;
+  margin-top: -330px;
+  margin-bottom: 31px;
+}
+.camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.camera-line-holder {
+  width: auto;
+}
+.camera-line {
+  border: none;
+  height: 1px;
+  width: 32px;
+  background-color: #e3b873;
+}
+.online-title {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.camera-img {
+  margin: 0 9px;
+}
+.dude {
+  background: url("../img/window.png");
+  position: relative;
+  height: 434px;
+  width: 817px;
+  margin: 31px auto 0;
+}
+
+.dude::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dude-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dude-container-item {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #e3b873;
+  box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.online-line {
+  width: 55px;
+  margin: 62px auto 34px;
+}
+.online {
+  padding-bottom: 147px;
+}
+.online-subtitle {
+  font-size: 18px;
+  line-height: 37px;
+  color: #363636;
+  text-align: center;
+  margin-bottom: 91px;
+}
+.online-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs-and-button {
+  display: flex;
+  margin-bottom: 33px;
+}
+
+.online-button {
+  width: 200px;
+  height: 51px;
+}
+
+.online-form-item {
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  margin-right: 58px;
+  outline: none;
+}
+
+.online-form-item::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+}
+
+.online-form-label {
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+  padding-left: 3px;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.checkbox-1 {
+  font-size: 14px;
+  line-height: 23px;
+  border-radius: 1px;
+  color: #181818;
+}
