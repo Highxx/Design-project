@@ -1062,6 +1062,7 @@ color: #E3B873;
   .questions-container {
     display: flex;
     flex-flow: wrap;
+    flex-direction: column;
   }
   .man {
     width: 100%;
@@ -1135,6 +1136,8 @@ color: #E3B873;
   }
   .questions-title {
     order: 2;
+    padding-top: 100px;
+    margin-top: 0;
   }
   .main-container {
     width: 90%;
